@@ -1,4 +1,4 @@
-#Sapper Environment
+# Sapper Environment
 
 This module helps you manage env variables in your Sapper App. 
 
@@ -6,24 +6,24 @@ The code is really simple and you should be able to manage env variables on your
 
 So, use this directly or as a guide, just don't hard code your config variables :)
 
-##Usage
+## Usage
 
 This module looks for any env variable prefixed with ``SAPPER_APP_`` (configurable) and creates an object that you can use in the build process.
 
-###1. Install
+### 1. Install
 
 ```
 npm install sapper-environment --save#or
 yarn add sapper-environment 
 ```
 
-###2. Require
+### 2. Require
 
 ```javascript
 const sapperEnv = require('sapper-environment');
 ```
 
-###3. Use at compile time
+### 3. Use at compile time
 
 If using rollup template, add ``...sapperEnv()`` to the client replace plugin options.
 
@@ -54,7 +54,7 @@ module.exports = {
 			}),
 ```
 
-###4. Use env variables in Sapper!
+### 4. Use env variables in Sapper!
 
 Let's say you defined a env variable called ``SAPPER_APP_API_URL=http://localhost:3000/``.
 
