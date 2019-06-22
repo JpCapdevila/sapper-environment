@@ -1,0 +1,28 @@
+{
+  "name": "sapper-environment",
+  "version": "1.0.0",
+  "description": "Environment variables for Sapper Apps. Rollup & Webpack support.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JpCapdevila/sapper-environment.git"
+  },
+  "keywords": [
+    "SvelteJs",
+    "Sapper",
+    "Rollup",
+    "Webpack",
+    "Environment",
+    "Env"
+  ],
+  "author": "JpCapdevila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JpCapdevila/sapper-environment/issues"
+  },
+  "homepage": "https://github.com/JpCapdevila/sapper-environment#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
